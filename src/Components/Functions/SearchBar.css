@@ -1,0 +1,34 @@
+#pac-container{
+	display: inline-flex;
+	margin: auto;
+	padding-top: 200px;
+	padding-bottom: 2em;
+	vertical-align: middle;
+	white-space: nowrap;
+	position: relative;
+	display:block;
+}
+#pac-input{
+	width: 700px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    background-color: white;
+    padding-left: 45px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) , 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) , 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.66);
+	display: block;
+	margin: auto;
+}
+#pac-input:focus {
+    width: 110%;
+    border-color: #4d90fe;
+}

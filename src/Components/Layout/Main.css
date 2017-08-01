@@ -1,0 +1,15 @@
+.Main{
+	display: inline-flex;
+	margin: auto;
+	padding-top: 100px;
+}
+.Weather{
+	width:33%;
+	/*display:inline-flex;*/
+}
+.MapContainer{
+	width: 500px;
+	height: 500px;
+	overflow: hidden;
+	/*display:inline-flex;*/
+}
